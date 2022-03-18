@@ -1,0 +1,119 @@
+.Top_Panel {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.splitters {
+    position: absolute;
+    width: 140px;
+    left: 180px;
+    height: 100px;
+}
+.Title {
+    position: relative;
+    width: 500px;
+    height: 100px;
+    top: 50;
+    left: 50%;
+    transform: translate(-50%, 250%);
+}
+#Top_AboutMe {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 0px 0px;
+    font-size: 25px;
+    font-family: myriad-pro-semiextended, sans-serif;
+    cursor: pointer;
+    z-index: 3;
+}
+#Top_Home {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translate(-45%, -50%);
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 0px 0px;
+    font-size: 25px;
+    font-family: 'myriad-pro-semiextended', sans-serif;
+    cursor: pointer;
+}
+#Top_Contact {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-56%, -50%);
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 0px 0px;
+    font-size: 25px;
+    font-family: 'myriad-pro-semiextended', sans-serif;
+    cursor: pointer;
+}
+#u1 {
+    position: absolute;
+    color: white;  
+    top: -35px;
+    left: -14%;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 50px;
+}
+#u2 {
+    position: absolute;
+    color: white;
+    top: -35px;
+    left: 93%;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 50px;
+}
+#HiIm {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#HiIm_p {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 75px;
+}
+#Name {
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    width: 130%;
+    transform: translate(-50%, -50%);
+}
+#Name_p {
+    background: linear-gradient(90deg,#29ABE2, #FF00FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 90px;
+}
+#Passion {
+    position: absolute;
+    top: 230%;
+    left: 50%;
+    width: 175%;
+    transform: translate(-50%, -50%);
+}
+#Passion_p {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+}
