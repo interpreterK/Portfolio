@@ -1,3 +1,4 @@
+div {border: 1px solid green;}
 .Top_Panel {
     position: absolute;
     width: 500px;
@@ -16,9 +17,17 @@
     position: relative;
     width: 500px;
     height: 100px;
-    top: 50;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, 250%);
+}
+.Bottom_Panel {
+    position: relative;
+    width: 1000px;
+    height: 100px;
+    top: 29vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #Top_AboutMe {
     margin: 0;
@@ -81,18 +90,20 @@
 }
 #HiIm {
     position: absolute;
-    top: 20%;
+    text-align: center;
+    top: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 #HiIm_p {
     color: white;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 75px;
+    font-size: 4vw;
 }
 #Name {
     position: absolute;
-    top: 130%;
+    text-align: center;
+    top: 100%;
     left: 50%;
     width: 130%;
     transform: translate(-50%, -50%);
@@ -103,17 +114,62 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 90px;
+    font-size: 4.7vw;
 }
-#Passion {
-    position: absolute;
-    top: 230%;
+#WhatiDo {
+    position: absolute;    
+    text-align: center;
+    top: 200%;
     left: 50%;
     width: 175%;
     transform: translate(-50%, -50%);
 }
-#Passion_p {
+#WhatiDo_p {
     color: white;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 50px;
+    font-size: 2.6vw;
+}
+#Passion {
+    position: absolute;
+    text-align: center;
+    top: 293%;
+    left: 60%;
+    width: 250%;
+    transform: translate(-50%, -50%);
+}
+#Passion_p {
+    color: #B4B4B4;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-size: 1.6vw;
+}
+#Bottom_AboutMe {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 16px 26px;
+    text-align: center;
+    margin: 4px 2px;
+    font-size: 30px;
+    background-image: linear-gradient(90deg,#29ABE2, #0086E2);
+}
+
+#Top_Home:hover {
+    background: linear-gradient(90deg,#29ABE2, #6d74eb);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#Top_AboutMe:hover {
+    background: linear-gradient(90deg,#7f66ee, #aa44f4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#Top_Contact:hover {
+    background: linear-gradient(90deg,#b43cf5, #f606fc);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
