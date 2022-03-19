@@ -28,6 +28,19 @@
     left: 50%;
     transform: translate(-50%, 500%);
 }
+.Bubbles_Left {
+    position: absolute;
+    width: 550px;
+    height: 95vh;
+    top: 10px;
+}
+.Bubbles_Right {
+    position: absolute;
+    width: 550px;
+    height: 95vh;
+    top: 10px;
+    left: 70vw
+}
 #Top_AboutMe {
     position: absolute;
     top: 50%;
@@ -117,7 +130,7 @@
     text-align: center;
     top: 200%;
     left: 50%;
-    width: 175%;
+    width: 200%;
     transform: translate(-50%, -50%);
 }
 #WhatiDo_p {
@@ -163,6 +176,16 @@
     float: right;
     cursor: pointer;
 }
+#Bubble_Left_1 {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 80%;
+    background: radial-gradient(#29ABE2, #6d74eb);
+    display: inline-block;
+    border-radius: 50%;
+}
+
 #Top_Home:hover {
     background: linear-gradient(90deg,#29ABE2, #6d74eb);
     background-clip: text;
@@ -181,4 +204,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+#Bottom_AboutMe:hover, #Bottom_Contact:hover {color: black}
 
+div {border: 1px solid green}
