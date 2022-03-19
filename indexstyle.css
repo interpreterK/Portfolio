@@ -19,6 +19,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, 250%);
+    z-index: 3;
 }
 .Bottom_Panel {
     position: relative;
@@ -31,13 +32,14 @@
 .Bubbles_Left {
     position: absolute;
     width: 550px;
-    height: 95vh;
+    height: 97vh;
     top: 10px;
+    z-index: 2;
 }
 .Bubbles_Right {
     position: absolute;
     width: 550px;
-    height: 95vh;
+    height: 97vh;
     top: 10px;
     left: 70vw
 }
@@ -178,14 +180,44 @@
 }
 #Bubble_Left_1 {
     position: absolute;
-    height: 250px;
-    width: 250px;
-    top: 80%;
-    background: radial-gradient(#29ABE2, #6d74eb);
+    height: 300px;
+    width: 300px;
+    top: 81%;
+    left: -80px;
+    background: radial-gradient(circle at center, #E315FF, #31A5E3);
     display: inline-block;
     border-radius: 50%;
 }
-
+#Bubble_Left_2 {
+    position: absolute;
+    height: 225px;
+    width: 225px;
+    top: 59%;
+    left: 230px;
+    background: radial-gradient(circle at center, #E315FF, #31A5E3);
+    display: inline-block;
+    border-radius: 50%;
+}
+#Bubble_Left_3 {
+    position: absolute;
+    height: 175px;
+    width: 175px;
+    top: 39%;
+    left: 50px;
+    background: radial-gradient(circle at center, #E315FF, #31A5E3);
+    display: inline-block;
+    border-radius: 50%;
+}
+#Bubble_Left_4 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 37%;
+    left: 295px;
+    background: radial-gradient(circle at center, #E315FF, #31A5E3);
+    display: inline-block;
+    border-radius: 50%;
+}
 #Top_Home:hover {
     background: linear-gradient(90deg,#29ABE2, #6d74eb);
     background-clip: text;
