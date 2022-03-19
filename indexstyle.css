@@ -1,4 +1,3 @@
-div {border: 1px solid green;}
 .Top_Panel {
     position: absolute;
     width: 500px;
@@ -23,14 +22,13 @@ div {border: 1px solid green;}
 }
 .Bottom_Panel {
     position: relative;
-    width: 1000px;
+    width: 700px;
     height: 100px;
-    top: 29vw;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 500%);
 }
 #Top_AboutMe {
-    margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -40,12 +38,11 @@ div {border: 1px solid green;}
     color: white;
     padding: 0px 0px;
     font-size: 25px;
-    font-family: myriad-pro-semiextended, sans-serif;
+    font-family: 'myriad-pro-semiextended', sans-serif;
     cursor: pointer;
     z-index: 3;
 }
 #Top_Home {
-    margin: 0;
     position: absolute;
     top: 50%;
     left: 22%;
@@ -59,7 +56,6 @@ div {border: 1px solid green;}
     cursor: pointer;
 }
 #Top_Contact {
-    margin: 0;
     position: absolute;
     top: 50%;
     left: 80%;
@@ -114,7 +110,7 @@ div {border: 1px solid green;}
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 4.7vw;
+    font-size: 8vh;
 }
 #WhatiDo {
     position: absolute;    
@@ -127,13 +123,13 @@ div {border: 1px solid green;}
 #WhatiDo_p {
     color: white;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 2.6vw;
+    font-size: 5vh;
 }
 #Passion {
     position: absolute;
     text-align: center;
-    top: 293%;
-    left: 60%;
+    top: 283%;
+    left: 50%;
     width: 250%;
     transform: translate(-50%, -50%);
 }
@@ -141,20 +137,32 @@ div {border: 1px solid green;}
     color: #B4B4B4;
     font-family: 'Source Code Pro', monospace;
     font-weight: bold;
-    font-size: 1.6vw;
+    font-size: 2.7vh;
 }
 #Bottom_AboutMe {
-    color: white;
     font-family: 'Ubuntu', sans-serif;
-    cursor: pointer;
-    border-radius: 20px;
-    padding: 16px 26px;
-    text-align: center;
-    margin: 4px 2px;
     font-size: 30px;
-    background-image: linear-gradient(90deg,#29ABE2, #0086E2);
+    background-image: linear-gradient(90deg,#29ABE2, #003cff);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 75px;
+    margin: 2% 0%;
+    float: left;
+    cursor: pointer;
 }
-
+#Bottom_Contact {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    background-image: linear-gradient(90deg,#f606fc, #451cfd);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 75px;
+    margin: 2% 0%;
+    float: right;
+    cursor: pointer;
+}
 #Top_Home:hover {
     background: linear-gradient(90deg,#29ABE2, #6d74eb);
     background-clip: text;
@@ -173,3 +181,4 @@ div {border: 1px solid green;}
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
