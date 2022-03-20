@@ -1,3 +1,9 @@
+body {
+    background-color: black;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
 .Top_Panel {
     position: absolute;
     width: 500px;
@@ -5,6 +11,7 @@
     top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 5;
 }
 .splitters {
     position: absolute;
@@ -13,36 +20,38 @@
     height: 100px;
 }
 .Title {
-    position: relative;
+    position: absolute;
     width: 500px;
     height: 100px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 250%);
-    z-index: 3;
+    top: 23%;
+    left: 36.7%;
+    z-index: 4;
 }
 .Bottom_Panel {
-    position: relative;
+    position: absolute;
     width: 700px;
     height: 100px;
-    top: 50%;
+    top: 55%;
     left: 50%;
-    transform: translate(-50%, 500%);
+    transform: translate(-50%, 100%);
+    z-index: 3;
 }
 .Bubbles_Left {
     position: absolute;
     width: 550px;
     height: 97vh;
     top: 10px;
-    z-index: 2;
+    z-index: 3;
 }
 .Bubbles_Right {
     position: absolute;
     width: 550px;
     height: 97vh;
     top: 10px;
-    left: 70vw
+    left: 71vw;
+    z-index: 3;
 }
+
 #Top_AboutMe {
     position: absolute;
     top: 50%;
@@ -151,7 +160,7 @@
 #Passion_p {
     color: #B4B4B4;
     font-family: 'Source Code Pro', monospace;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 2.7vh;
 }
 #Bottom_AboutMe {
@@ -187,12 +196,13 @@
     background: radial-gradient(circle at center, #E315FF, #31A5E3);
     display: inline-block;
     border-radius: 50%;
+    z-index: 3;
 }
 #Bubble_Left_2 {
     position: absolute;
     height: 225px;
     width: 225px;
-    top: 59%;
+    top: 65%;
     left: 230px;
     background: radial-gradient(circle at center, #E315FF, #31A5E3);
     display: inline-block;
@@ -202,7 +212,7 @@
     position: absolute;
     height: 175px;
     width: 175px;
-    top: 39%;
+    top: 45%;
     left: 50px;
     background: radial-gradient(circle at center, #E315FF, #31A5E3);
     display: inline-block;
@@ -215,6 +225,117 @@
     top: 37%;
     left: 295px;
     background: radial-gradient(circle at center, #E315FF, #31A5E3);
+    display: inline-block;
+    border-radius: 50%;
+}
+#Bubble_Left_4 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 37%;
+    left: 295px;
+    background: radial-gradient(circle at center, #E315FF, #31A5E3);
+    display: inline-block;
+    border-radius: 50%;
+}
+#Bubble_Left_5 {
+    position: absolute;
+    height: 65px;
+    width: 65px;
+    top: 30%;
+    left: 170px;
+    background: radial-gradient(circle at center, #E315FF, #31A5E3);
+    display: inline-block;
+    border-radius: 50%;
+}
+#Bubble_Left_6 {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 23%;
+    left: 380px;
+    background: radial-gradient(circle at center, #E315FF, #31A5E3);
+    display: inline-block;
+    border-radius: 50%;
+}
+#Bubble_Left_7 {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 10%;
+    left: 250px;
+    background: radial-gradient(circle at center, #E315FF, #31A5E3);
+    display: inline-block;
+    border-radius: 50%;
+}
+#Bubble_Right_1 {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 80%;
+    left: 1700px;
+    background: radial-gradient(circle at center, #31A5E3, #E315FF);
+    display: inline-block;
+    border-radius: 50%;
+    z-index: 3;
+}
+#Bubble_Right_2 {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 60%;
+    left: 0px;
+    background: radial-gradient(circle at center, #31A5E3, #E315FF);
+    display: inline-block;
+    border-radius: 50%;
+}
+#Bubble_Right_3 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 45%;
+    left: 300px;
+    background: radial-gradient(circle at center, #31A5E3, #E315FF);
+    display: inline-block;
+    border-radius: 50%;
+}
+#Bubble_Right_4 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 40%;
+    left: -10px;
+    background: radial-gradient(circle at center, #31A5E3, #E315FF);
+    display: inline-block;
+    border-radius: 50%;
+}
+#Bubble_Right_5 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 28%;
+    left: 210px;
+    background: radial-gradient(circle at center, #31A5E3, #E315FF);
+    display: inline-block;
+    border-radius: 50%;
+}
+#Bubble_Right_6 {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 22%;
+    left: 80px;
+    background: radial-gradient(circle at center, #31A5E3, #E315FF);
+    display: inline-block;
+    border-radius: 50%;
+}
+#Bubble_Right_7 {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 8%;
+    left: 250px;
+    background: radial-gradient(circle at center, #31A5E3, #E315FF);
     display: inline-block;
     border-radius: 50%;
 }
@@ -236,6 +357,13 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-#Bottom_AboutMe:hover, #Bottom_Contact:hover {color: black}
+#container { /*Particles*/
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    visibility: visible
+}
 
-div {border: 1px solid green}
+#Bottom_AboutMe:hover, #Bottom_Contact:hover {color: black}
