@@ -1,369 +1,386 @@
 body {
-    background-color: black;
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
+  background-color: black;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
 }
 .Top_Panel {
-    position: absolute;
-    width: 500px;
-    height: 100px;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 5;
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
 }
 .splitters {
-    position: absolute;
-    width: 140px;
-    left: 180px;
-    height: 100px;
+  position: absolute;
+  width: 140px;
+  left: 180px;
+  height: 100px;
 }
 .Title {
-    position: absolute;
-    width: 500px;
-    height: 100px;
-    top: 23%;
-    left: 36.7%;
-    z-index: 4;
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  top: 27%;
+  left: 36.7%;
+  z-index: 4;
 }
 .Bottom_Panel {
-    position: absolute;
-    width: 700px;
-    height: 100px;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, 100%);
-    z-index: 3;
+  position: absolute;
+  width: 700px;
+  height: 100px;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  z-index: 3;
 }
 .Bubbles_Left {
-    position: absolute;
-    width: 550px;
-    height: 97vh;
-    top: 10px;
-    z-index: 3;
+  position: absolute;
+  width: 550px;
+  height: 97vh;
+  top: 10px;
+  z-index: 3;
 }
 .Bubbles_Right {
-    position: absolute;
-    width: 550px;
-    height: 97vh;
-    top: 10px;
-    left: 71vw;
-    z-index: 3;
+  position: absolute;
+  width: 550px;
+  height: 97vh;
+  top: 10px;
+  left: 71vw;
+  z-index: 3;
 }
 
 #Top_AboutMe {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: black;
-    border: none;
-    color: white;
-    padding: 0px 0px;
-    font-size: 25px;
-    font-family: 'myriad-pro-semiextended', sans-serif;
-    cursor: pointer;
-    z-index: 3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 0px 0px;
+  font-size: 25px;
+  font-family: "myriad-pro-semiextended", sans-serif;
+  cursor: pointer;
+  z-index: 3;
 }
 #Top_Home {
-    position: absolute;
-    top: 50%;
-    left: 22%;
-    transform: translate(-45%, -50%);
-    background-color: black;
-    border: none;
-    color: white;
-    padding: 0px 0px;
-    font-size: 25px;
-    font-family: 'myriad-pro-semiextended', sans-serif;
-    cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 22%;
+  transform: translate(-45%, -50%);
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 0px 0px;
+  font-size: 25px;
+  font-family: "myriad-pro-semiextended", sans-serif;
+  cursor: pointer;
 }
 #Top_Contact {
-    position: absolute;
-    top: 50%;
-    left: 80%;
-    transform: translate(-56%, -50%);
-    background-color: black;
-    border: none;
-    color: white;
-    padding: 0px 0px;
-    font-size: 25px;
-    font-family: 'myriad-pro-semiextended', sans-serif;
-    cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-56%, -50%);
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 0px 0px;
+  font-size: 25px;
+  font-family: "myriad-pro-semiextended", sans-serif;
+  cursor: pointer;
 }
 #u1 {
-    position: absolute;
-    color: white;  
-    top: -35px;
-    left: -14%;
-    font-family: 'Source Code Pro', monospace;
-    font-size: 50px;
+  position: absolute;
+  color: white;
+  top: -35px;
+  left: -14%;
+  font-family: "Source Code Pro", monospace;
+  font-size: 50px;
 }
 #u2 {
-    position: absolute;
-    color: white;
-    top: -35px;
-    left: 93%;
-    font-family: 'Source Code Pro', monospace;
-    font-size: 50px;
+  position: absolute;
+  color: white;
+  top: -35px;
+  left: 93%;
+  font-family: "Source Code Pro", monospace;
+  font-size: 50px;
 }
 #HiIm {
-    position: absolute;
-    text-align: center;
-    top: 0%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 #HiIm_p {
-    color: white;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 4vw;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 4vw;
 }
 #Name {
-    position: absolute;
-    text-align: center;
-    top: 100%;
-    left: 50%;
-    width: 130%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  top: 100%;
+  left: 50%;
+  width: 130%;
+  transform: translate(-50%, -50%);
 }
 #Name_p {
-    background: linear-gradient(90deg,#29ABE2, #FF00FF);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 8vh;
+  background: linear-gradient(90deg, #29abe2, #ff00ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 8vh;
 }
 #WhatiDo {
-    position: absolute;    
-    text-align: center;
-    top: 200%;
-    left: 50%;
-    width: 200%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  top: 200%;
+  left: 50%;
+  width: 200%;
+  transform: translate(-50%, -50%);
 }
 #WhatiDo_p {
-    color: white;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 5vh;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 5vh;
 }
 #Passion {
-    position: absolute;
-    text-align: center;
-    top: 283%;
-    left: 50%;
-    width: 250%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  top: 283%;
+  left: 50%;
+  width: 250%;
+  transform: translate(-50%, -50%);
 }
 #Passion_p {
-    color: #B4B4B4;
-    font-family: 'Source Code Pro', monospace;
-    font-weight: bolder;
-    font-size: 2.7vh;
+  color: #b4b4b4;
+  font-family: "Source Code Pro", monospace;
+  font-weight: bolder;
+  font-size: 2.7vh;
 }
 #Bottom_AboutMe {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 30px;
-    background-image: linear-gradient(90deg,#29ABE2, #003cff);
-    border: none;
-    border-radius: 20px;
-    color: white;
-    padding: 15px 75px;
-    margin: 2% 0%;
-    float: left;
-    cursor: pointer;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  background-image: linear-gradient(90deg, #29abe2, #003cff);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 15px 75px;
+  margin: 2% 0%;
+  float: left;
+  cursor: pointer;
 }
 #Bottom_Contact {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 30px;
-    background-image: linear-gradient(90deg,#f606fc, #451cfd);
-    border: none;
-    border-radius: 20px;
-    color: white;
-    padding: 15px 75px;
-    margin: 2% 0%;
-    float: right;
-    cursor: pointer;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  background-image: linear-gradient(90deg, #f606fc, #451cfd);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 15px 75px;
+  margin: 2% 0%;
+  float: right;
+  cursor: pointer;
 }
 #Bubble_Left_1 {
-    position: absolute;
-    height: 300px;
-    width: 300px;
-    top: 81%;
-    left: -80px;
-    background: radial-gradient(circle at center, #E315FF, #31A5E3);
-    display: inline-block;
-    border-radius: 50%;
-    z-index: 3;
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: 81%;
+  left: -80px;
+  background: radial-gradient(circle at center, #e315ff, #31a5e3);
+  display: inline-block;
+  border-radius: 50%;
+  z-index: 3;
 }
 #Bubble_Left_2 {
-    position: absolute;
-    height: 225px;
-    width: 225px;
-    top: 65%;
-    left: 230px;
-    background: radial-gradient(circle at center, #E315FF, #31A5E3);
-    display: inline-block;
-    border-radius: 50%;
+  position: absolute;
+  height: 225px;
+  width: 225px;
+  top: 65%;
+  left: 230px;
+  background: radial-gradient(circle at center, #e315ff, #31a5e3);
+  display: inline-block;
+  border-radius: 50%;
 }
 #Bubble_Left_3 {
-    position: absolute;
-    height: 175px;
-    width: 175px;
-    top: 45%;
-    left: 50px;
-    background: radial-gradient(circle at center, #E315FF, #31A5E3);
-    display: inline-block;
-    border-radius: 50%;
+  position: absolute;
+  height: 175px;
+  width: 175px;
+  top: 45%;
+  left: 50px;
+  background: radial-gradient(circle at center, #e315ff, #31a5e3);
+  display: inline-block;
+  border-radius: 50%;
 }
 #Bubble_Left_4 {
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    top: 37%;
-    left: 295px;
-    background: radial-gradient(circle at center, #E315FF, #31A5E3);
-    display: inline-block;
-    border-radius: 50%;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 37%;
+  left: 295px;
+  background: radial-gradient(circle at center, #e315ff, #31a5e3);
+  display: inline-block;
+  border-radius: 50%;
 }
 #Bubble_Left_4 {
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    top: 37%;
-    left: 295px;
-    background: radial-gradient(circle at center, #E315FF, #31A5E3);
-    display: inline-block;
-    border-radius: 50%;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 37%;
+  left: 295px;
+  background: radial-gradient(circle at center, #e315ff, #31a5e3);
+  display: inline-block;
+  border-radius: 50%;
 }
 #Bubble_Left_5 {
-    position: absolute;
-    height: 65px;
-    width: 65px;
-    top: 30%;
-    left: 170px;
-    background: radial-gradient(circle at center, #E315FF, #31A5E3);
-    display: inline-block;
-    border-radius: 50%;
+  position: absolute;
+  height: 65px;
+  width: 65px;
+  top: 30%;
+  left: 170px;
+  background: radial-gradient(circle at center, #e315ff, #31a5e3);
+  display: inline-block;
+  border-radius: 50%;
 }
 #Bubble_Left_6 {
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    top: 23%;
-    left: 380px;
-    background: radial-gradient(circle at center, #E315FF, #31A5E3);
-    display: inline-block;
-    border-radius: 50%;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  top: 23%;
+  left: 380px;
+  background: radial-gradient(circle at center, #e315ff, #31a5e3);
+  display: inline-block;
+  border-radius: 50%;
 }
 #Bubble_Left_7 {
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    top: 10%;
-    left: 250px;
-    background: radial-gradient(circle at center, #E315FF, #31A5E3);
-    display: inline-block;
-    border-radius: 50%;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  top: 10%;
+  left: 250px;
+  background: radial-gradient(circle at center, #e315ff, #31a5e3);
+  display: inline-block;
+  border-radius: 50%;
 }
 #Bubble_Right_1 {
-    position: absolute;
-    height: 300px;
-    width: 300px;
-    top: 80%;
-    left: 1700px;
-    background: radial-gradient(circle at center, #31A5E3, #E315FF);
-    display: inline-block;
-    border-radius: 50%;
-    z-index: 3;
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: 80%;
+  left: 1700px;
+  background: radial-gradient(circle at center, #31a5e3, #e315ff);
+  display: inline-block;
+  border-radius: 50%;
+  z-index: 3;
 }
 #Bubble_Right_2 {
-    position: absolute;
-    height: 250px;
-    width: 250px;
-    top: 60%;
-    left: 0px;
-    background: radial-gradient(circle at center, #31A5E3, #E315FF);
-    display: inline-block;
-    border-radius: 50%;
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  top: 60%;
+  left: 0px;
+  background: radial-gradient(circle at center, #31a5e3, #e315ff);
+  display: inline-block;
+  border-radius: 50%;
 }
 #Bubble_Right_3 {
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    top: 45%;
-    left: 300px;
-    background: radial-gradient(circle at center, #31A5E3, #E315FF);
-    display: inline-block;
-    border-radius: 50%;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  top: 45%;
+  left: 300px;
+  background: radial-gradient(circle at center, #31a5e3, #e315ff);
+  display: inline-block;
+  border-radius: 50%;
 }
 #Bubble_Right_4 {
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    top: 40%;
-    left: -10px;
-    background: radial-gradient(circle at center, #31A5E3, #E315FF);
-    display: inline-block;
-    border-radius: 50%;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 40%;
+  left: -10px;
+  background: radial-gradient(circle at center, #31a5e3, #e315ff);
+  display: inline-block;
+  border-radius: 50%;
 }
 #Bubble_Right_5 {
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    top: 28%;
-    left: 210px;
-    background: radial-gradient(circle at center, #31A5E3, #E315FF);
-    display: inline-block;
-    border-radius: 50%;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 28%;
+  left: 210px;
+  background: radial-gradient(circle at center, #31a5e3, #e315ff);
+  display: inline-block;
+  border-radius: 50%;
 }
 #Bubble_Right_6 {
-    position: absolute;
-    height: 50px;
-    width: 50px;
-    top: 22%;
-    left: 80px;
-    background: radial-gradient(circle at center, #31A5E3, #E315FF);
-    display: inline-block;
-    border-radius: 50%;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 22%;
+  left: 80px;
+  background: radial-gradient(circle at center, #31a5e3, #e315ff);
+  display: inline-block;
+  border-radius: 50%;
 }
 #Bubble_Right_7 {
-    position: absolute;
-    height: 50px;
-    width: 50px;
-    top: 8%;
-    left: 250px;
-    background: radial-gradient(circle at center, #31A5E3, #E315FF);
-    display: inline-block;
-    border-radius: 50%;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 8%;
+  left: 250px;
+  background: radial-gradient(circle at center, #31a5e3, #e315ff);
+  display: inline-block;
+  border-radius: 50%;
 }
 #Top_Home:hover {
-    background: linear-gradient(90deg,#29ABE2, #6d74eb);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #29abe2, #6d74eb);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #Top_AboutMe:hover {
-    background: linear-gradient(90deg,#7f66ee, #aa44f4);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #7f66ee, #aa44f4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #Top_Contact:hover {
-    background: linear-gradient(90deg,#b43cf5, #f606fc);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #b43cf5, #f606fc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-#container { /*Particles*/
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    visibility: visible
+/*Particles*/
+#container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  visibility: visible;
 }
-
-#Bottom_AboutMe:hover, #Bottom_Contact:hover {color: black}
+/* -- */
+#links {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 50%;
+  height: 50%;
+  visibility: visible;
+}
+#Bottom_AboutMe:hover,
+#Bottom_Contact:hover {
+  color: black;
+}
+/*
+div {
+  border: 1px solid green;
+}
+*/
