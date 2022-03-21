@@ -51,7 +51,15 @@ body {
   left: 71vw;
   z-index: 3;
 }
-
+.links {
+  position: absolute;
+  width: 30%;
+  height: 7%;
+  top: 91%;
+  left: 35%;
+  z-index: 3;
+  border: 1px solid green;
+}
 #Top_AboutMe {
   position: absolute;
   top: 50%;
@@ -367,17 +375,15 @@ body {
   visibility: visible;
 }
 /* -- */
-#links {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 50%;
-  height: 50%;
-  visibility: visible;
+#github_link {
+  transform: translate(200%);
 }
 #Bottom_AboutMe:hover,
 #Bottom_Contact:hover {
   color: black;
+}
+#github_link:hover {
+  cursor: pointer;
 }
 /*
 div {
