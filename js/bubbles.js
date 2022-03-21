@@ -16,7 +16,7 @@ document.addEventListener('mousemove', m => {
     var Y = (m.pageY * 1 / 100)
     bubbles_left.style.transform = 'translate3d(' + -X + 'px, ' + -Y + 'px, 0)'
     bubbles_right.style.transform = 'translate3d(' + X + 'px, ' + Y + 'px, 0)'
-    title.style.transform = 'translate3d(' + X / 2.5 + 'px,' + Y / 2.5 + 'px, 0)'
+    title.style.transform = 'translate3d(' + X / 2 + 'px,' + Y / 2 + 'px, 0)'
 })
 window.setInterval(float1, 1000 / 60)
 window.setInterval(float2, 1000 / 60)

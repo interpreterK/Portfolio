@@ -13,7 +13,7 @@ body {
   transform: translate(-50%, -50%);
   z-index: 5;
 }
-.splitters {
+.Splitters {
   position: absolute;
   width: 140px;
   left: 180px;
@@ -51,14 +51,13 @@ body {
   left: 71vw;
   z-index: 3;
 }
-.links {
+.Links {
   position: absolute;
-  width: 30%;
-  height: 7%;
+  width: 19%;
+  height: 5%;
   top: 91%;
-  left: 35%;
+  left: 41%;
   z-index: 3;
-  border: 1px solid green;
 }
 #Top_AboutMe {
   position: absolute;
@@ -127,6 +126,7 @@ body {
   color: white;
   font-family: "Ubuntu", sans-serif;
   font-size: 4vw;
+  text-shadow: 1px 1px 1px #fff, 1px 1px 8px #fff;
 }
 #Name {
   position: absolute;
@@ -170,6 +170,7 @@ body {
   font-family: "Source Code Pro", monospace;
   font-weight: bolder;
   font-size: 2.7vh;
+  text-shadow: 1px 1px 1px #fff, 5px 5px 20px #fff;
 }
 #Bottom_AboutMe {
   font-family: "Ubuntu", sans-serif;
@@ -281,7 +282,7 @@ body {
   height: 300px;
   width: 300px;
   top: 80%;
-  left: 1700px;
+  left: 88%;
   background: radial-gradient(circle at center, #31a5e3, #e315ff);
   display: inline-block;
   border-radius: 50%;
@@ -365,8 +366,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/*Particles*/
-#container {
+#Particles {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -374,15 +374,22 @@ body {
   height: 100%;
   visibility: visible;
 }
-/* -- */
 #github_link {
-  transform: translate(200%);
+  transform: translate(40%);
+}
+#youtube_link {
+  transform: translate(183%);
+}
+#devforums {
+  transform: translate(420%);
 }
 #Bottom_AboutMe:hover,
 #Bottom_Contact:hover {
   color: black;
 }
-#github_link:hover {
+#github_link:hover,
+#youtube_link:hover,
+#devforums:hover {
   cursor: pointer;
 }
 /*
