@@ -126,7 +126,6 @@ body {
   color: white;
   font-family: "Ubuntu", sans-serif;
   font-size: 4vw;
-  text-shadow: 1px 1px 1px #fff, 1px 1px 8px #fff;
 }
 #Name {
   position: absolute;
@@ -392,8 +391,3 @@ body {
 #devforums:hover {
   cursor: pointer;
 }
-/*
-div {
-  border: 1px solid green;
-}
-*/

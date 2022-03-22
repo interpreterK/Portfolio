@@ -1,0 +1,95 @@
+body {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+.Top_Panel {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+.Splitters {
+  position: absolute;
+  width: 140px;
+  left: 180px;
+  height: 100px;
+}
+#Top_AboutMe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 0px 0px;
+  font-size: 25px;
+  font-family: "myriad-pro-semiextended", sans-serif;
+  cursor: pointer;
+  z-index: 3;
+}
+#Top_Home {
+  position: absolute;
+  top: 50%;
+  left: 22%;
+  transform: translate(-45%, -50%);
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 0px 0px;
+  font-size: 25px;
+  font-family: "myriad-pro-semiextended", sans-serif;
+  cursor: pointer;
+}
+#Top_Contact {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-56%, -50%);
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 0px 0px;
+  font-size: 25px; 
+  font-family: "myriad-pro-semiextended", sans-serif;
+  cursor: pointer;
+}
+#u1 {
+  position: absolute;
+  color: white;
+  top: -35px;
+  left: -14%;
+  font-family: "Source Code Pro", monospace;
+  font-size: 50px;
+}
+#u2 {
+  position: absolute;
+  color: white;
+  top: -35px;
+  left: 93%;
+  font-family: "Source Code Pro", monospace;
+  font-size: 50px;
+}
+
+#Top_Home:hover {
+  background: linear-gradient(90deg, #29abe2, #6d74eb);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#Top_AboutMe:hover {
+  background: linear-gradient(90deg, #7f66ee, #aa44f4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#Top_Contact:hover {
+  background: linear-gradient(90deg, #b43cf5, #f606fc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
