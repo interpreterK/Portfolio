@@ -57,6 +57,7 @@ body {
   font-size: 25px;
   font-family: "myriad-pro-semiextended", sans-serif;
   cursor: pointer;
+  text-shadow: 1px 1px 1px #fff, 1px 1px 10px #fff;
 }
 #u1 {
   position: absolute;
@@ -83,12 +84,6 @@ body {
 }
 #Top_AboutMe:hover {
   background: linear-gradient(90deg, #7f66ee, #aa44f4);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-#Top_Contact:hover {
-  background: linear-gradient(90deg, #b43cf5, #f606fc);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

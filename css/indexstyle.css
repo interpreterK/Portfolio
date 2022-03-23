@@ -85,6 +85,7 @@ body {
   font-size: 25px;
   font-family: "myriad-pro-semiextended", sans-serif;
   cursor: pointer;
+  text-shadow: 1px 1px 1px #fff, 1px 1px 10px #fff;
 }
 #Top_Contact {
   position: absolute;
@@ -347,12 +348,6 @@ body {
   display: inline-block;
   border-radius: 50%;
 }
-#Top_Home:hover {
-  background: linear-gradient(90deg, #29abe2, #6d74eb);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 #Top_AboutMe:hover {
   background: linear-gradient(90deg, #7f66ee, #aa44f4);
   background-clip: text;
@@ -390,7 +385,7 @@ body {
 #youtube_link:hover,
 #devforums:hover {
   cursor: pointer;
-  opacity: .5;
+  opacity: 0.5;
 }
 #Bubble_Left_2:hover,
 #Bubble_Left_3:hover,
@@ -404,5 +399,5 @@ body {
 #Bubble_Right_5:hover,
 #Bubble_Right_6:hover,
 #Bubble_Right_7:hover {
-  opacity: .1;
+  opacity: 0.1;
 }
