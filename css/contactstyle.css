@@ -18,6 +18,12 @@ body {
   left: 180px;
   height: 100px;
 }
+.map_location {
+  width: 19.8%;
+  height: 20%;
+  transform: translate(400%, 50%);
+  border: 1px solid green;
+}
 #Top_AboutMe {
   position: absolute;
   top: 50%;
