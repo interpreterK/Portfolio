@@ -390,4 +390,19 @@ body {
 #youtube_link:hover,
 #devforums:hover {
   cursor: pointer;
+  opacity: .5;
+}
+#Bubble_Left_2:hover,
+#Bubble_Left_3:hover,
+#Bubble_Left_4:hover,
+#Bubble_Left_5:hover,
+#Bubble_Left_6:hover,
+#Bubble_Left_7:hover,
+#Bubble_Right_2:hover,
+#Bubble_Right_3:hover,
+#Bubble_Right_4:hover,
+#Bubble_Right_5:hover,
+#Bubble_Right_6:hover,
+#Bubble_Right_7:hover {
+  opacity: .1;
 }
