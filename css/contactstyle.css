@@ -24,6 +24,13 @@ body {
   width: 19.8%;
   transform: translate(400%, 50%);
 }
+.submit_options {
+  position: absolute;
+  width: 650px;
+  height: 650px;
+  transform: translate(105%, -10%);
+  border: 1px solid green
+}
 #Top_AboutMe {
   position: absolute;
   top: 50%;
@@ -80,6 +87,11 @@ body {
   left: 93%;
   font-family: "Source Code Pro", monospace;
   font-size: 50px;
+}
+#ContactText {
+  position: absolute;
+  color: white;
+
 }
 
 #Top_Home:hover {
