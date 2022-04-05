@@ -24,12 +24,6 @@ body {
   width: 19.8%;
   transform: translate(400%, 50%);
 }
-.Heading {
-  width: 50%;
-  transform: translate(50%, -350%);
-  background-color: rgb(50, 50, 50);
-  border-radius: 10px;
-}
 #Top_AboutMe {
   position: absolute;
   top: 50%;
@@ -86,12 +80,6 @@ body {
   left: 93%;
   font-family: "Source Code Pro", monospace;
   font-size: 50px;
-}
-#ContactTitle {
-  color: white;
-  transform: translateX(20%);
-  font-family: "Ubuntu", monospace;
-  font-size: 250%;
 }
 
 #Top_Home:hover {
